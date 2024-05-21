@@ -355,7 +355,7 @@ markupsafe==2.1.5
     #   jinja2
     #   mako
     #   werkzeug
-marshmallow==2.21.0
+marshmallow==3.21.2
     # via
     #   -r requirements.txt
     #   marshmallow-sqlalchemy
@@ -400,6 +400,7 @@ packaging==24.0
     #   docker
     #   gunicorn
     #   limits
+    #   marshmallow
     #   pytest
 paramiko==3.4.0
     # via -r requirements.txt

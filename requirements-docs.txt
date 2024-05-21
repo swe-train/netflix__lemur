@@ -447,7 +447,7 @@ markupsafe==2.1.5
     #   jinja2
     #   mako
     #   werkzeug
-marshmallow==2.21.0
+marshmallow==3.21.2
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -504,6 +504,7 @@ packaging==24.0
     #   docker
     #   gunicorn
     #   limits
+    #   marshmallow
     #   pytest
     #   sphinx
 paramiko==3.4.0
