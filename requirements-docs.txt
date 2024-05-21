@@ -298,6 +298,10 @@ graphql-core==3.2.3
     # via
     #   -r requirements-tests.txt
     #   moto
+greenlet==3.0.3
+    # via
+    #   -r requirements-tests.txt
+    #   sqlalchemy
 grpc-google-iam-v1==0.13.0
     # via
     #   -r requirements-tests.txt
@@ -795,7 +799,7 @@ sphinxcontrib-qthelp==1.0.7
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.10
     # via sphinx
-sqlalchemy==1.3.24
+sqlalchemy==2.0.30
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -885,6 +889,7 @@ typing-extensions==4.11.0
     #   mypy
     #   pydantic
     #   pydantic-core
+    #   sqlalchemy
 tzdata==2024.1
     # via
     #   -r requirements-tests.txt
